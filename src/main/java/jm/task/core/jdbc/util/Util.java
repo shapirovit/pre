@@ -19,4 +19,6 @@ public class Util {
         String connectionURL = "jdbc:mysql://" + hostName + ":3306/" + dbName + "?serverTimezone=UTC";
         return DriverManager.getConnection(connectionURL, userName, password);
     }
+
+
 }
